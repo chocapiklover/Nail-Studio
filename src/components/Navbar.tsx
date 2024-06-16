@@ -12,9 +12,9 @@ const Navbar: React.FC = () => {
     };
   
     return (
-      <header className="sticky top-0 bg-white mt-4">
+      <header className="sticky top-0  mt-4 z-50">
       <div className="mx-2 relative my-2">
-          <nav className="max-w-2xl py-4 px-8 mx-auto flex items-center justify-between border border-gray-700 rounded-3xl">
+          <nav className="max-w-2xl bg-white py-4 px-8 mx-auto flex items-center justify-between border border-gray-700 rounded-3xl">
               <div className="flex items-center justify-around w-full">
                   <div className="text-lg font-bold">Logo</div>
                   <div className="hidden md:flex justify-around flex-grow space-x-4 font-light">
@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
               classNames="dropdown"
               unmountOnExit
           >
-              <div className='mx-6 relative'>
+              <div className='mx-6 relative z-50'>
                   <div className=" my-6 mx-auto top-full w-full shadow-lg py-4 border rounded-3xl border-gray-700 max-w-2xl">
                       <Link to="/" className="block px-4 py-2 text-black transition duration-300 hover:text-pink-300 hover:text-lg">Uber Uns</Link>
                       <Link to="/treatments" className="block px-4 py-2 text-black transition duration-300 hover:text-pink-300 hover:text-lg">Treatments</Link>
