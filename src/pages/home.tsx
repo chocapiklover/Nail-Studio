@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import WelcomeSection from '../components/WelcomeSection';
 import ServicesSection from '../components/Services';
+import Team from '../components/Team';
 
 const Home: React.FC = () => {
   return (
@@ -9,6 +10,7 @@ const Home: React.FC = () => {
       <Hero />
       <WelcomeSection />
       <ServicesSection />
+      <Team />
     </>
   );
 };

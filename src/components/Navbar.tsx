@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
     return (
       <header className="sticky top-0  mt-4 z-50">
       <div className="mx-2 relative my-2">
-          <nav className="max-w-2xl bg-white py-4 px-8 mx-auto flex items-center justify-between border border-gray-700 rounded-3xl">
+          <nav className="max-w-2xl bg-pink-100 py-4 px-8 mx-auto flex items-center justify-between border border-gray-700 rounded-3xl">
               <div className="flex items-center justify-around w-full">
                   <div className="text-lg font-bold">Logo</div>
                   <div className="hidden md:flex justify-around flex-grow space-x-4 font-light">
