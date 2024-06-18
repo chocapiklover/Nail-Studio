@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import WelcomeSection from '../components/WelcomeSection';
 import ServicesSection from '../components/Services';
 import Team from '../components/Team';
+import Contact from '../components/Contact';
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
       <WelcomeSection />
       <ServicesSection />
       <Team />
+      <Contact />
     </>
   );
 };

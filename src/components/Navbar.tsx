@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
               unmountOnExit
           >
               <div className='mx-6 relative z-50'>
-                  <div className=" my-6 mx-auto top-full w-full shadow-lg py-4 border rounded-3xl border-gray-700 max-w-2xl">
+                  <div className=" bg-white my-6 mx-auto top-full w-full shadow-lg py-4 border rounded-3xl border-gray-700 max-w-2xl">
                       <Link to="/" className="block px-4 py-2 text-black transition duration-300 hover:text-pink-300 hover:text-lg">Uber Uns</Link>
                       <Link to="/treatments" className="block px-4 py-2 text-black transition duration-300 hover:text-pink-300 hover:text-lg">Treatments</Link>
                       <Link to="/contact" className="block px-4 py-2 text-black transition duration-300 hover:text-pink-300 hover:text-lg">Contact</Link>
