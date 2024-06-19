@@ -14,7 +14,7 @@ const containerVariants = {
 };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 120, filter: 'blur(3px)' },
+  hidden: { opacity: 0, y: 40, filter: 'blur(3px)' },
   visible: { opacity: 1, y: 0, filter: 'blur(0px)'},
 };
 

@@ -123,4 +123,4 @@ const Team: React.FC = () => {
   );
 };
 
-export default Team;  
+export default Team;
