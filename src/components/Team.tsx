@@ -16,7 +16,7 @@ const TeamSection: React.FC = () => {
   }, [ref]);
 
   const inputRange = [elementTop - window.innerHeight, elementTop + elementHeight];
-  
+
   const rotateX = useTransform(scrollY, inputRange, [30, 0]);
   const translateZ = useTransform(scrollY, inputRange, [-200, 20]);
 
@@ -28,12 +28,12 @@ const TeamSection: React.FC = () => {
           <h3 className="text-4xl font-bold mb-4">Unser Team 🧑‍🤝‍🧑🏆</h3>
         </div>
         
-        <div className="grid gap-8 md:grid-cols-2" ref={ref} style={{ perspective: 1000 }}>
+        <div className="grid gap-8 md:grid-cols-2" ref={ref} style={{ perspective: 1000, willChange: 'transform' }}>
           
           {/* Team Member 1 */}
           <motion.div
             className="flex items-center border border-gray-700 p-6 rounded-[25px]"
-            style={{ rotateX, translateZ }}
+            style={{ rotateX, translateZ, willChange: 'transform' }}
           >
             <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
             <div>
@@ -53,7 +53,7 @@ const TeamSection: React.FC = () => {
           {/* Team Member 2 */}
           <motion.div
             className="flex items-center border border-gray-700 p-6 rounded-[25px]"
-            style={{ rotateX, translateZ }}
+            style={{ rotateX, translateZ, willChange: 'transform' }}
           >
             <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
             <div>
@@ -73,7 +73,7 @@ const TeamSection: React.FC = () => {
           {/* Team Member 3 */}
           <motion.div
             className="flex items-center border border-gray-700 p-6 rounded-[25px]"
-            style={{ rotateX, translateZ }}
+            style={{ rotateX, translateZ, willChange: 'transform' }}
           >
             <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
             <div>
@@ -93,7 +93,7 @@ const TeamSection: React.FC = () => {
           {/* Team Member 4 */}
           <motion.div
             className="flex items-center border border-gray-700 p-6 rounded-[25px]"
-            style={{ rotateX, translateZ }}
+            style={{ rotateX, translateZ, willChange: 'transform' }}
           >
             <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
             <div>
