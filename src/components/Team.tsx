@@ -18,13 +18,13 @@ const Team: React.FC = () => {
   const rotateX = useTransform(
     scrollY,
     [elementTop - window.innerHeight * 0.5, elementTop + elementHeight * 0.5],
-    [20, 0]
+    [30, -5]
   );
 
   const translateZ = useTransform(
     scrollY,
     [elementTop - window.innerHeight * 0.5, elementTop + elementHeight * 0.5],
-    [-200, 0]
+    [-200, 50]
   );
 
   return (
