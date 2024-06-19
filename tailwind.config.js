@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(circle at top right, #eeaeca, #94bbe9)',
+      },
+
       animation: {
         'gradient-x': 'gradient-x 5s ease infinite',
       },
