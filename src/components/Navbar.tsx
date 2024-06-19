@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
     return (
         <header className="sticky top-0 mt-4 z-50">
         <div className="mx-2 relative my-2">
-          <nav className="max-w-2xl bg-gradient-radial py-4 px-8 mx-auto flex items-center justify-between shadow-md border-white rounded-[25px]">
+          <nav className="max-w-2xl bg-gradient-radial py-4 px-8 mx-auto flex items-center justify-between shadow-md border-white rounded-[25px] ">
             <div className="flex items-center justify-around w-full">
               <div className="text-lg font-bold">Logo</div>
               <div className="hidden md:flex justify-around flex-grow space-x-4 font-light hover:text-white">
@@ -39,10 +39,10 @@ const Navbar: React.FC = () => {
             unmountOnExit
           >
             <div className='mx-6 relative z-50'>
-              <div className="bg-gradient-radial my-6 mx-auto top-full w-full shadow-lg py-4 border rounded-[25px]  max-w-2xl">
-                <Link to="/" className="block px-4 py-2 text-black transition duration-300 hover:text-pink-300 hover:text-lg">Uber Uns</Link>
-                <Link to="/treatments" className="block px-4 py-2 text-black transition duration-300 hover:text-pink-300 hover:text-lg">Treatments</Link>
-                <Link to="/contact" className="block px-4 py-2 text-black transition duration-300 hover:text-pink-300 hover:text-lg">Contact</Link>
+              <div className="bg-gradient-radial2 my-6 mx-auto top-full w-full shadow-lg py-4 border rounded-[25px]  max-w-2xl">
+                <Link to="/" className="block px-4 py-2 text-black transition duration-300 hover:text-white hover:text-lg">Uber Uns</Link>
+                <Link to="/treatments" className="block px-4 py-2 text-black transition duration-300 hover:text-white hover:text-lg">Treatments</Link>
+                <Link to="/contact" className="block px-4 py-2 text-black transition duration-300 hover:text-white hover:text-lg">Contact</Link>
               </div>
             </div>
           </CSSTransition>

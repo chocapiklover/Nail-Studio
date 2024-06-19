@@ -4,6 +4,7 @@ import WelcomeSection from '../components/WelcomeSection';
 import ServicesSection from '../components/Services';
 import Team from '../components/Team';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
       <ServicesSection />
       <Team />
       <Contact />
+      <Footer />
     </>
   );
 };
