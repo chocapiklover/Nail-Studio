@@ -76,11 +76,11 @@ const Hero: React.FC = () => {
                   className="flex w-[120%] transform -translate-x-[5%] z-auto"
                   >
               <div className="flex w-[120%] transform -translate-x-[20%] sm:-translate-x-[10%] z-auto ">
-                <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50"><img src="src/assets/nails1.jpeg" alt="Nail Design 1" className="w-full h-full object-cover rounded-lg"/></div>
-                <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50"><img src="src/assets/nails2.jpeg" alt="Nail Design 2" className="w-full h-full object-cover rounded-lg"/></div>
-                <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50"><img src="src/assets/nails3.jpeg" alt="Nail Design 3" className="w-full h-full object-cover rounded-lg"/></div>
-                <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50"><img src="src/assets/nails4.jpeg" alt="Nail Design 4" className="w-full h-full object-cover rounded-lg"/></div>
-                <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50"><img src="src/assets/nails8.jpeg" alt="Nail Design 8" className="w-full h-full object-cover rounded-lg"/></div>
+                <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50"><img src="/assets/nails1.jpeg" alt="Nail Design 1" className="w-full h-full object-cover rounded-lg"/></div>
+                <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50"><img src="/assets/nails2.jpeg" alt="Nail Design 2" className="w-full h-full object-cover rounded-lg"/></div>
+                <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50"><img src="/assets/nails3.jpeg" alt="Nail Design 3" className="w-full h-full object-cover rounded-lg"/></div>
+                <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50"><img src="/assets/nails4.jpeg" alt="Nail Design 4" className="w-full h-full object-cover rounded-lg"/></div>
+                <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50"><img src="/assets/nails8.jpeg" alt="Nail Design 8" className="w-full h-full object-cover rounded-lg"/></div>
               </div>
             </motion.div>
 
@@ -91,22 +91,22 @@ const Hero: React.FC = () => {
               className="flex w-[120%] transform -translate-x-[5%] z-auto"
               >
               <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50">
-                <img src="src/assets/nails9.jpeg" alt="Nail Design 9" className="w-full h-full object-cover rounded-lg"/>
+                <img src="/assets/nails9.jpeg" alt="Nail Design 9" className="w-full h-full object-cover rounded-lg"/>
               </div>
               <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50">
-                <img src="src/assets/nails5.jpeg" alt="Nail Design 5" className="w-full h-full object-cover rounded-lg"/>
+                <img src="/assets/nails5.jpeg" alt="Nail Design 5" className="w-full h-full object-cover rounded-lg"/>
               </div>
               <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50">
-                <img src="src/assets/nails6.jpeg" alt="Nail Design 6" className="w-full h-full object-cover rounded-lg"/>
+                <img src="/assets/nails6.jpeg" alt="Nail Design 6" className="w-full h-full object-cover rounded-lg"/>
               </div>
               <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50">
-                <img src="src/assets/nails7.jpeg" alt="Nail Design 7" className="w-full h-full object-cover rounded-lg"/>
+                <img src="/assets/nails7.jpeg" alt="Nail Design 7" className="w-full h-full object-cover rounded-lg"/>
               </div>
               <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50">
-                <img src="src/assets/nails8.jpeg" alt="Nail Design 8" className="w-full h-full object-cover rounded-lg"/>
+                <img src="/assets/nails8.jpeg" alt="Nail Design 8" className="w-full h-full object-cover rounded-lg"/>
               </div>
               <div className="flex-shrink-0 w-2/5 sm:w-1/5 px-2 max-h-48 sm:max-h-96 transform hover:scale-125 transition-transform duration-300 hover:z-50">
-                <img src="src/assets/nails9.jpeg" alt="Nail Design 9" className="w-full h-full object-cover rounded-lg"/>
+                <img src="/assets/nails9.jpeg" alt="Nail Design 9" className="w-full h-full object-cover rounded-lg"/>
               </div>
             </motion.div>
           
