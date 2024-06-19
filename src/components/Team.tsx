@@ -12,7 +12,7 @@ const Team: React.FC = () =>  {
           
           <div className="grid gap-8 md:grid-cols-2">
             {/* Team Member 1 */}
-            <div className="flex items-center border p-6 rounded-[25px]">
+            <div className="flex items-center border border-gray-700 p-6 rounded-[25px]">
               <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
               <div>
                 <h4 className="text-xl font-bold">Anna Müller</h4>
@@ -29,7 +29,7 @@ const Team: React.FC = () =>  {
             </div>
             
             {/* Team Member 2 */}
-            <div className="flex items-center border p-6 rounded-[25px]">
+            <div className="flex items-center border border-gray-700 p-6 rounded-[25px]">
               <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
               <div>
                 <h4 className="text-xl font-bold">Ben Schröder</h4>
@@ -46,7 +46,7 @@ const Team: React.FC = () =>  {
             </div>
             
             {/* Team Member 3 */}
-            <div className="flex items-center border p-6 rounded-[25px]">
+            <div className="flex items-center border border-gray-700 p-6 rounded-[25px]">
               <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
               <div>
                 <h4 className="text-xl font-bold">Clara Fischer</h4>
@@ -63,7 +63,7 @@ const Team: React.FC = () =>  {
             </div>
             
             {/* Team Member 4 */}
-            <div className="flex items-center border p-6 rounded-[25px]">
+            <div className="flex items-center border border-gray-700 p-6 rounded-[25px]">
               <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
               <div>
                 <h4 className="text-xl font-bold">David Weber</h4>

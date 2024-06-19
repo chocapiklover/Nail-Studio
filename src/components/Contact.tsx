@@ -22,12 +22,12 @@ const Contact:React.FC = () =>  {
               <li className="flex items-center">
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-gray-600" />
                 <span className="font-bold">Email</span>
-                <a href="mailto:hello@relume.io" className="ml-2 text-blue-500 hover:underline">hello@relume.io</a>
+                <a href="mailto:nails@studio.io" className="ml-2 text-gray-600 hover:underline">nails@studio.io</a>
               </li>
               <li className="flex items-center">
                 <FontAwesomeIcon icon={faPhoneAlt} className="mr-2 text-gray-600" />
                 <span className="font-bold">Phone</span>
-                <a href="tel:+15550000000" className="ml-2 text-blue-500 hover:underline">+1 (555) 000-0000</a>
+                <a href="tel:+15550000000" className="ml-2 ttext-gray-600 hover:underline">+1 (555) 000-0000</a>
               </li>
               <li className="flex items-center">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-gray-600" />

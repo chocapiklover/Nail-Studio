@@ -19,7 +19,7 @@ const ServicesSection: React.FC = () => {
               <p className=" mb-4 font-light">Entdecken Sie unsere umfangreiche Auswahl an Maniküre,
                 <br /> Pediküre und Nageldesign.</p>
               <div className="flex justify-between mb-2">
-              <Link to="/contact" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl">
+              <Link to="/contact" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl transform hover:scale-125 transition-transform duration-300">
                 Mehr Erfahren
               </Link>
             </div>
@@ -53,7 +53,7 @@ const ServicesSection: React.FC = () => {
               <p className=" mb-4 font-light">Erleben Sie exklusive Nagelpflege und personalisierte 
                 <br /> Behandlungen in unserem Studio.</p>
               <div className="flex justify-between mb-2">
-              <Link to="/contact" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl">
+              <Link to="/contact" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl transform hover:scale-125 transition-transform duration-300">
                 Jetzt Buchen
               </Link>
             </div>
@@ -71,7 +71,7 @@ const ServicesSection: React.FC = () => {
               <p className="mb-4 font-light mt-10 text-left">Verwöhnen Sie sich mit unseren zusätzlichen Behandlungen.</p>
             </div>
             <div className="flex justify-between mt-11">
-              <Link to="/contact" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl">
+              <Link to="/contact" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl transform hover:scale-125 transition-transform duration-300">
                 Mehr Erfahren
               </Link>
             </div>
