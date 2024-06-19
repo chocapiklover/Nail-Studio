@@ -1,9 +1,7 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-
-const Team: React.FC = () =>  {
-
+const Team: React.FC = () => {
   const { scrollY } = useScroll();
   const ref = React.useRef<HTMLDivElement>(null);
   const [elementTop, setElementTop] = React.useState(0);
@@ -20,13 +18,13 @@ const Team: React.FC = () =>  {
   const rotateX = useTransform(
     scrollY,
     [elementTop - window.innerHeight * 0.5, elementTop + elementHeight * 0.5],
-    [20, 0] // Adjusted the initial rotation for a more pronounced effect
+    [20, 0]
   );
 
   const translateZ = useTransform(
     scrollY,
     [elementTop - window.innerHeight * 0.5, elementTop + elementHeight * 0.5],
-    [-200, 0] // Adjusted the initial translateZ for a more pronounced effect
+    [-200, 0]
   );
 
   return (
@@ -36,7 +34,7 @@ const Team: React.FC = () =>  {
           <h2 className="text-xl font-light text-gray-600 mb-2">Schönheit in jedem Pinselstrich 🖌️✨</h2>
           <h3 className="text-4xl font-bold mb-4">Unser Team 🧑‍🤝‍🧑🏆</h3>
         </div>
-        
+
         <div className="grid gap-8 md:grid-cols-2" ref={ref} style={{ perspective: 1000 }}>
           
           {/* Team Member 1 */}
@@ -125,4 +123,4 @@ const Team: React.FC = () =>  {
   );
 };
 
-export default Team;
+export default Team;  
