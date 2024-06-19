@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-const Team: React.FC = () => {
+const TeamSection: React.FC = () => {
   const { scrollY } = useScroll();
   const ref = React.useRef<HTMLDivElement>(null);
   const [elementTop, setElementTop] = React.useState(0);
@@ -15,17 +15,10 @@ const Team: React.FC = () => {
     }
   }, [ref]);
 
-  const rotateX = useTransform(
-    scrollY,
-    [elementTop - window.innerHeight * 0.5, elementTop + elementHeight * 0.5],
-    [30, 0]
-  );
-
-  const translateZ = useTransform(
-    scrollY,
-    [elementTop - window.innerHeight * 0.5, elementTop + elementHeight * 0.5],
-    [-200, 50]
-  );
+  const inputRange = [elementTop - window.innerHeight, elementTop + elementHeight];
+  
+  const rotateX = useTransform(scrollY, inputRange, [30, 0]);
+  const translateZ = useTransform(scrollY, inputRange, [-200, 20]);
 
   return (
     <section className="bg-white py-12">
@@ -34,12 +27,12 @@ const Team: React.FC = () => {
           <h2 className="text-xl font-light text-gray-600 mb-2">Schönheit in jedem Pinselstrich 🖌️✨</h2>
           <h3 className="text-4xl font-bold mb-4">Unser Team 🧑‍🤝‍🧑🏆</h3>
         </div>
-
+        
         <div className="grid gap-8 md:grid-cols-2" ref={ref} style={{ perspective: 1000 }}>
           
           {/* Team Member 1 */}
           <motion.div
-            className="flex items-center border border-gray-700 p-6 rounded-[25px] shadow-2xl"
+            className="flex items-center border border-gray-700 p-6 rounded-[25px]"
             style={{ rotateX, translateZ }}
           >
             <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
@@ -59,7 +52,7 @@ const Team: React.FC = () => {
           
           {/* Team Member 2 */}
           <motion.div
-            className="flex items-center border border-gray-700 p-6 rounded-[25px] shadow-2xl"
+            className="flex items-center border border-gray-700 p-6 rounded-[25px]"
             style={{ rotateX, translateZ }}
           >
             <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
@@ -79,7 +72,7 @@ const Team: React.FC = () => {
           
           {/* Team Member 3 */}
           <motion.div
-            className="flex items-center border border-gray-700 p-6 rounded-[25px] shadow-2xl "
+            className="flex items-center border border-gray-700 p-6 rounded-[25px]"
             style={{ rotateX, translateZ }}
           >
             <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
@@ -99,7 +92,7 @@ const Team: React.FC = () => {
           
           {/* Team Member 4 */}
           <motion.div
-            className="flex items-center border border-gray-700 p-6 rounded-[25px] shadow-2xl"
+            className="flex items-center border border-gray-700 p-6 rounded-[25px]"
             style={{ rotateX, translateZ }}
           >
             <div className="w-24 h-24 rounded-full bg-gray-200 mr-6 flex-shrink-0"></div>
@@ -123,4 +116,4 @@ const Team: React.FC = () => {
   );
 };
 
-export default Team;
+export default TeamSection;
