@@ -50,7 +50,7 @@ const WelcomeSection: React.FC = () => {
           variants={containerVariants}
           className="md:w-1/2 p-6 md:p-12"
         >
-          <img src="src/assets/studio.jpg" alt="Nail Studio" className="rounded-lg shadow-lg w-full h-auto" />
+          <img src="/assets/studio.jpg" alt="Nail Studio" className="rounded-lg shadow-lg w-full h-auto" />
         </motion.div>
       </div>
     </section>

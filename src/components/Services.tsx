@@ -62,7 +62,7 @@ const ServicesSection: React.FC = () => {
               </div>
             </div>
             <div className="h-2/3 rounded-lg">
-              <img src="src/assets/studio2.jpg" alt="Nail Studio" className="w-full h-full object-cover rounded-[25px]" />
+              <img src="/assets/studio2.jpg" alt="Nail Studio" className="w-full h-full object-cover rounded-[25px]" />
             </div>
           </motion.div>
 
@@ -95,7 +95,7 @@ const ServicesSection: React.FC = () => {
               </div>
             </div>
             <div className="h-2/3 rounded-lg">
-              <img src="src/assets/studio2.jpg" alt="Nail Studio" className="w-full h-full object-cover rounded-[25px]" />
+              <img src="/assets/studio2.jpg" alt="Nail Studio" className="w-full h-full object-cover rounded-[25px]" />
             </div>
           </motion.div>
 
