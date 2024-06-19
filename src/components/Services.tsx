@@ -76,7 +76,7 @@ const ServicesSection: React.FC = () => {
               <p className="font-light mb-4">Wir bieten Ihnen erstklassige Qualität und exzellenten Service.</p>
             </div>
             <div className="rounded-[25px] overflow-hidden lg:w-2/3 w-full">
-              <img src="src/assets/polish.jpg" alt="Nail Polishes" className="w-full object-cover h-full rounded-[25px] mb-4" />
+              <img src="/assets/polish.jpg" alt="Nail Polishes" className="w-full object-cover h-full rounded-[25px] mb-4" />
             </div>
           </motion.div>
 
