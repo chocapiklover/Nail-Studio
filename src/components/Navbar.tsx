@@ -46,10 +46,17 @@ const Navbar: React.FC = () => {
                 Contact
               </button>
             </div>
+
             <div className="flex items-center">
-              <Link to="/book" className="bg-pink-300 text-white py-2 px-4 rounded-full font-light ml-2 transform hover:scale-125 transition-transform duration-300">
-                Book Now
-              </Link>
+              <button
+                  onClick={() => {
+                    scrollToSection('contact-section');
+                    closeDropdown();
+                  }}
+                  className="bg-pink-300 text-white py-2 px-4 rounded-full font-light ml-2 transform hover:scale-125 transition-transform duration-300"
+                >
+                  Book Now
+                </button>
               <button onClick={toggleDropdown} className="ml-2 p-2 md:hidden" aria-label="Open menu">
                 <FaChevronDown className="text-black" />
               </button>
