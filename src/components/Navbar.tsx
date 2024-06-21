@@ -11,6 +11,10 @@ const Navbar: React.FC = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
+  const closeDropdown = () => {
+    setIsDropdownOpen(false);
+  };
+
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -29,7 +33,7 @@ const Navbar: React.FC = () => {
       <div className="mx-2 relative my-2">
         <nav className="max-w-2xl bg-gradient-radial py-4 px-8 mx-auto flex items-center justify-between shadow-md border-white rounded-[25px]">
           <div className="flex items-center justify-around w-full">
-            <div className="text-lg font-bold">Logo</div>
+            <Link to="/" className="text-lg font-bold">Logo</Link>
             <div className="hidden md:flex justify-around flex-grow space-x-4 font-light hover:text-white">
               
               <Link to="/services" className="text-black transform hover:scale-105 transition-transform duration-300 hover:text-white">
@@ -62,12 +66,18 @@ const Navbar: React.FC = () => {
               transition={springTransition}
             >
               <div className="bg-gradient-radial2 my-6 mx-auto top-full w-full shadow-lg py-4 border rounded-[25px] max-w-2xl">
-                
-                <Link to="/services" className="block px-4 py-2 text-black transition duration-300 hover:text-white hover:text-lg">
+                <Link
+                  to="/services"
+                  className="block px-4 py-2 text-black transition duration-300 hover:text-white hover:text-lg"
+                  onClick={closeDropdown}
+                >
                   Treatments
                 </Link>
                 <button
-                  onClick={() => scrollToSection('contact-section')}
+                  onClick={() => {
+                    scrollToSection('contact-section');
+                    closeDropdown();
+                  }}
                   className="block px-4 py-2 text-black transition duration-300 hover:text-white hover:text-lg"
                 >
                   Contact
