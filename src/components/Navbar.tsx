@@ -34,18 +34,15 @@ const Navbar: React.FC = () => {
         <nav className="max-w-2xl bg-gradient-radial py-4 px-8 mx-auto flex items-center justify-between shadow-md border-white rounded-[25px]">
           <div className="flex items-center justify-around w-full">
             <Link to="/" className="text-lg font-bold">Logo</Link>
-            <div className="hidden md:flex justify-around flex-grow space-x-4 font-light hover:text-white">
-              
-              <a href="/services#main" className="text-black transform hover:scale-105 transition-transform duration-300 hover:text-white">
+            <a href="/services#main" className="text-black transform hover:scale-105 transition-transform duration-300 hover:text-white hidden sm:block">
                 Treatments
               </a>
               <button
                 onClick={() => scrollToSection('contact-section')}
-                className="text-black transform hover:scale-105 transition-transform duration-300 hover:text-white"
+                className="text-black transform hover:scale-105 transition-transform duration-300 hover:text-white hidden sm:block"
               >
                 Contact
               </button>
-            </div>
 
             <div className="flex items-center">
               <button
