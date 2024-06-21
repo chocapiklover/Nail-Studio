@@ -21,11 +21,14 @@ const TeamSection: React.FC = () => {
   const translateZ = useTransform(scrollY, inputRange, [-200, 20]);
 
   return (
-    <section className="bg-white py-12">
+    <section  id="team-section" className="bg-white py-12">
       <div className="container mx-auto px-4">
         <div className="mb-12">
           <h2 className="text-xl font-light text-gray-600 mb-2">Schönheit in jedem Pinselstrich 🖌️✨</h2>
           <h3 className="text-4xl font-bold mb-4">Unser Team 🧑‍🤝‍🧑🏆</h3>
+          <p className="text-gray-600 mb-8">
+            Unser Team aus erfahrenen Nagelstylistinnen bietet Ihnen erstklassigen Service und individuelle Beratung. Lassen Sie sich von uns verwöhnen!
+          </p>
         </div>
         
         <div className="grid gap-8 md:grid-cols-2" ref={ref} style={{ perspective: 1000, willChange: 'transform' }}>

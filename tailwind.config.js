@@ -12,7 +12,7 @@ export default {
       },
 
       animation: {
-        'gradient-x': 'gradient-x 5s ease infinite',
+        'gradient-x': 'gradient-x 5s ease infinite ',
         pulseGlow: 'pulseGlow 6s ease-in-out infinite',
 
       },
