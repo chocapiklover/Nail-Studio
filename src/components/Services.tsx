@@ -108,7 +108,7 @@ const ServicesSection: React.FC = () => {
               <p className="mb-4 font-light mt-10 text-left">Verwöhnen Sie sich mit unseren zusätzlichen Behandlungen.</p>
             </div>
             <div className="flex justify-between mt-11">
-              <a href="/service#main" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl transform hover:scale-125 transition-transform duration-300">
+              <a href="/services#main" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl transform hover:scale-125 transition-transform duration-300">
                 Mehr Erfahren
               </a>
             </div>
