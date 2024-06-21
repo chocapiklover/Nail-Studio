@@ -62,12 +62,7 @@ const Navbar: React.FC = () => {
               transition={springTransition}
             >
               <div className="bg-gradient-radial2 my-6 mx-auto top-full w-full shadow-lg py-4 border rounded-[25px] max-w-2xl">
-                <button
-                  onClick={() => scrollToSection('team-section')}
-                  className="block px-4 py-2 text-black transition duration-300 hover:text-white hover:text-lg"
-                >
-                  Uber Uns
-                </button>
+                
                 <Link to="/services" className="block px-4 py-2 text-black transition duration-300 hover:text-white hover:text-lg">
                   Treatments
                 </Link>
