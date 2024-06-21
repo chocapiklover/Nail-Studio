@@ -56,7 +56,7 @@ const ServicesSection: React.FC = () => {
               <h5 className="text-2xl sm:text-3xl xl:text-5xl lg:text-4xl font-bold mb-10">Unsere<br /> Hauptdienstleistungen</h5>
               <p className="mb-4 font-light">Entdecken Sie unsere umfangreiche Auswahl an Maniküre,<br /> Pediküre und Nageldesign.</p>
               <div className="flex justify-between mb-2">
-                <Link to="/contact" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl transform hover:scale-125 transition-transform duration-300">
+                <Link to="/services" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl transform hover:scale-125 transition-transform duration-300">
                   Mehr Erfahren
                 </Link>
               </div>
@@ -108,9 +108,9 @@ const ServicesSection: React.FC = () => {
               <p className="mb-4 font-light mt-10 text-left">Verwöhnen Sie sich mit unseren zusätzlichen Behandlungen.</p>
             </div>
             <div className="flex justify-between mt-11">
-              <Link to="/service" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl transform hover:scale-125 transition-transform duration-300">
+              <a href="/service#main" className="bg-pink-200 text-black py-3 px-8 rounded-full font-light text-lg md:text-xl transform hover:scale-125 transition-transform duration-300">
                 Mehr Erfahren
-              </Link>
+              </a>
             </div>
           </motion.div>
         </div>

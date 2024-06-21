@@ -71,7 +71,9 @@ const Prices: React.FC = () => {
   }, [inView, controls]);
 
   return (
-    <section className="bg-white py-12">
+    
+    <section  className="bg-white py-12">
+      <div id='main'></div>
       <motion.div
         className="container mx-auto text-center"
         variants={containerVariants}

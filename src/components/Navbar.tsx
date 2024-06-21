@@ -36,9 +36,9 @@ const Navbar: React.FC = () => {
             <Link to="/" className="text-lg font-bold">Logo</Link>
             <div className="hidden md:flex justify-around flex-grow space-x-4 font-light hover:text-white">
               
-              <Link to="/services" className="text-black transform hover:scale-105 transition-transform duration-300 hover:text-white">
+              <a href="/services#main" className="text-black transform hover:scale-105 transition-transform duration-300 hover:text-white">
                 Treatments
-              </Link>
+              </a>
               <button
                 onClick={() => scrollToSection('contact-section')}
                 className="text-black transform hover:scale-105 transition-transform duration-300 hover:text-white"
