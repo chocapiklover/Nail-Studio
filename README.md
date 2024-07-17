@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Mock Landing Page for Nail Studio - Documentation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://nailstu.netlify.app/
 
-Currently, two official plugins are available:
+## 1. Introduction and Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Purpose:**
+The goal of this project is to create a responsive and visually appealing landing page for a nail studio. The landing page aims to attract potential clients by showcasing services, portfolio, client testimonials, and providing an easy way to book appointments.
 
-## Expanding the ESLint configuration
+**Key Features:**
+- **Responsive Design**: The landing page is fully responsive and works seamlessly on all devices.
+- **Service Showcase**: Detail the nail studio services offered.
+- **Portfolio Gallery**: Display a gallery of nail art and designs.
+- **Client Testimonials**: Build trust with client testimonials.
+- **Booking Form**: Allow clients to book appointments easily.
+- **Modern UI**: Utilizes Tailwind CSS and DaisyUI for a sleek and modern user interface.
+- **Performance**: Built with Vite, React, and TypeScript for optimal performance and maintainability.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**Technologies Used:**
+- **Vite**: For fast and optimized build.
+- **React**: As the JavaScript library for building the user interface.
+- **TypeScript**: For type safety and better developer experience.
+- **Tailwind CSS**: For utility-first CSS framework.
+- **Framer Motion**: For animations.
+- **React Icons**: For popular icon sets.
+- **React Router DOM**: For routing.
